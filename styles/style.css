@@ -265,14 +265,6 @@
   animation: sparkle 0.3s ease-in 0.3s forwards;
 }
 
-.like-icon.is-liked .heart {
-  animation: heart-scale-back 0.3s ease-in 0.4s forwards;
-}
-
-.like-icon.is-liked .sparks {
-  animation: sparkle-back 0.3s ease-in 0.3s forwards;
-}
-
 /* --- СТИЛИ МОДАЛЬНОГО ОКНА (DIALOG) --- */
 
 .dialog {
