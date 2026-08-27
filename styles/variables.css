@@ -8,9 +8,10 @@
   --bg-color-light: #fff;
   --border-color: #000;
   --text-color: #000;
-  --text-stroke-color: #ffffff;
+  --text-stroke-color: #fff;
   --animation-fill-contur: #000;
   --animation-fill-color: #ff0000;
+  --text-color-light: #fff;
   --background-gradient:
     repeating-linear-gradient(
       90deg,

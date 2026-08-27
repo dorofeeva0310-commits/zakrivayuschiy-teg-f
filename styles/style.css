@@ -95,12 +95,18 @@
   gap: 10px;
 }
 
+.button_square {
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+  position: relative;
+  border: 2px solid var(--border-color);
+}
+
 .card__like-button {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: transparent;
-  border: 2px solid var(--border-color);
   width: 130px;
   height: 38px;
   padding: 0;
@@ -113,7 +119,7 @@
   font-size: 14px;
   z-index: 2;
   mix-blend-mode: difference;
-  color: #ffffff;
+  color: var(--text-color-light);
 }
 
 .card__icon-button {
@@ -159,8 +165,6 @@
   gap: 8px;
   width: fit-content;
   padding: 17px 15px;
-  color: #000000;
-  border: 2px solid var(--border-color);
   margin-bottom: 100px;
 }
 
@@ -171,35 +175,35 @@
   height: 21px;
 }
 
-.image_1 {
+.image_brightness {
   filter: brightness(200%);
 }
 
-.image_2 {
+.image_contrast {
   filter: contrast(20%);
 }
 
-.image_3 {
+.image_blur {
   filter: blur(3.2rem);
 }
 
-.image_4 {
+.image_grayscale {
   filter: grayscale(0.8);
 }
 
-.image_5 {
+.image_saturate {
   filter: saturate(158%);
 }
 
-.image_6 {
+.image_hue {
   filter: hue-rotate(-90deg);
 }
 
-.image_7 {
+.image_invert {
   filter: invert(0.7);
 }
 
-.image_8 {
+.image_multi {
   filter: sepia(1) contrast(2) brightness(200%);
 }
 
@@ -321,7 +325,6 @@
   height: 38px;
   text-transform: uppercase;
   background-color: var(--bg-color-light);
-  border: 2px solid var(--border-color);
 }
 
 .dialog::backdrop {
@@ -336,12 +339,6 @@
   box-shadow: 2px 2px 0px 0px var(--border-color);
 }
 
-.button_square {
-  cursor: pointer;
-  transition: box-shadow 0.3s ease;
-  position: relative;
-}
-
 .button_square::before {
   content: "";
   position: absolute;
@@ -349,7 +346,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #000000;
+  background-color: var(--animation-fill-contur);
   transform: scaleX(0);
   transform-origin: left center;
   z-index: 1;
